@@ -1,0 +1,45 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "Frontend para la app",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack serve --mode development --open",
+      "build": "webpack --mode production",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "author": "Sebastián Mendoza González",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "axios": "^0.21.1",
+      "chart.js": "^3.5.1",
+      "d3": "^7.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.15.0",
+      "@babel/preset-env": "^7.15.0",
+      "@babel/preset-react": "^7.14.5",
+      "babel-loader": "^8.2.2",
+      "webpack": "^5.52.0",
+      "webpack-cli": "^4.8.0",
+      "webpack-dev-server": "^4.1.0",
+      "eslint": "^7.32.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-plugin-import": "^2.24.2",
+      "jest": "^27.0.6",
+      "babel-jest": "^27.0.6"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MenGonz/seguimiento_proyecto_123"
+    },
+    "keywords": [
+      "frontend",
+      "react",
+      "webpack"
+    ]
+  }
+  
