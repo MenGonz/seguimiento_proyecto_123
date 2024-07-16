@@ -1,0 +1,15 @@
+{
+  "name": "seguimiento_proyecto_123",
+  "version": "1.0.0",
+  "description": "Esta idea de implementación es simple, moderna, y minimiza muchísimo los costos mediante el uso mayoritario de herramientas open source. El despliegue del proyecto es lo único que requeriría dinero. Y aún así se logra minimizar el costo mediante el uso de herramientas de AWS, que son herramientas por excelencia de tipo \"cobro por uso\". Es una idea escalable, fácilmente trabajable y las herramientas usadas tienen todas una curva de aprendizaje pronunciada.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sebastián Mendoza González",
+  "license": "ISC"
+}
